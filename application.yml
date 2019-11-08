@@ -10,7 +10,7 @@ eureka:
     fetch-registry: false #是否从eureka中获取注册信息
     service-url:  #eureka客户端与eureka服务端及逆行交互的地址
 #      defaultZone: http://${eureka.instance.ip-address}:${server.port}/eureka/
-      defaultZone: http://0.0.0.0:8762/eureka/
+      defaultZone: http://49.233.170.4:8762/eureka/
   instance:
     prefer-ip-address: true #将自己的ip地址注册到eurka服务中
     ip-address: localhost
